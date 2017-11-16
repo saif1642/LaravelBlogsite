@@ -9,8 +9,8 @@ window._ = require('lodash');
 
 try {
     window.$ = window.jQuery = require('jquery');
-
-    require('bootstrap-sass');
+    //we have vue.js
+    //require('bootstrap-sass');
 } catch (e) {}
 
 /**
